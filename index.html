@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pinterest</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo icon-circle">
+                <a href="https://www.pinterest.es/" target="_blank"><img src="./img/logo.svg" alt="logo"></a>
+            </div>
+            <a href="#" class="boton seleccionado">Inicio</a>
+            <a href="#" class="boton">Hoy</a>
+            <div class="nav_crear">
+                <span>Crear</span>
+                <label for="buscar">
+                    <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                </label>
+                <input type="checkbox" id="buscar">
+                <div class="menu-crear">
+                    <a href="#" class="crear crear_op1">Crear una idea</a>
+                    <a href="#" class="crear crear_op2">Crear pin</a>
+                </div>
+            </div>
+            <div class="buscador">
+                <img src="/img/search-dark.png" alt="lupa">
+                <input class="boton-busqueda" type="text" id="busqueda" placeholder="Buscar">
+            </div>
+
+
+            <nav class="botones-nav">
+                <div id="notificaciones" class="icon-circle">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+                <div id="mensajes" class="icon-circle">
+                    <i class="fa-solid fa-comment-dots"></i>
+                </div>
+
+                <div id="perfil-img" class="icon-circle">
+                    <img class="perfil" src="./img/mujer.jpg" alt="profile">
+                </div>
+
+                <div id="seleccionar" class="icon-circle">
+                    <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!--GALERIA DE IMAGENES-->
+
+    <main class="contenedor-columns">
+
+        <div class="contenedor-items">
+            <!-- IMG 1 -->
+            <div class="item">
+                <div class="shadow">
+                    <!--  relativo     -->
+                    <img class="img" src="./img/image1.jpg" alt="img1">
+                    <div class="btns">
+                        <!--  absoluto     -->
+                        <div class="menu-top">
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+                        </div>
+                        <div class="menu-bottom">
+                            <a class="link" href="#"> Link... </a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- IMG 2 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image2.jpg" alt="img2">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- IMG 3 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image3.jfif" alt="img3">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!-- IMG 4 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image4.jpg" alt="img4">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#">Mis pines</a>
+                            <a class="save" href="#">Guardar</a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!-- IMG 5 -->
+
+            <div class="item">
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image5.jpg" alt="img5">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- IMG 6 -->
+
+            <div class="item">
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image6.jfif" alt="img6">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+            <!-- IMG 7 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image7.jpg" alt="img7">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!-- IMG 8 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image8.jpg" alt="img8">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!-- IMG 9 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image9.jfif" alt="img9">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--   IMG 10 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image10.jpg" alt="img10">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <!-- IMG 11 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image11.jpg" alt="img11">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!--  IMG 12 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image12.jpg" alt="img12">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- IMG 13 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image13.jpg" alt="img13">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- IMG 14 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image14.jpg" alt="img14">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- IMG 15 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image15.jpg" alt="img15">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- IMG 16 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image16.jpg" alt="img16">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- IMG 17 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image17.jpg" alt="img17">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--  IMG 18 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image18.jpg" alt="img18">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <!--  IMG19 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image19.jfif" alt="img19">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!--  IMG 20 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image20.jfif" alt="img20">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- IMG 21 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image21.jfif" alt="img21">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- IMG 22 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image7.jpg" alt="img23">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!--  IMG 23 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image24.jfif" alt="img24">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- IMG 24 -->
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image25.jfif" alt="img25">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image26.jfif" alt="img25">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="shadow">
+                    <!--  relativo     -->
+
+                    <img class="img" src="./img/image8.jpg" alt="img25">
+
+                    <div class="btns">
+                        <!--  absoluto     -->
+
+                        <div class="menu-top">
+
+                            <a class="tablet" href="#"> Mis pines </a>
+                            <a class="save" href="#"> guardar </a>
+
+                        </div>
+
+                        <div class="menu-bottom">
+                            <a class="link" href="#">Link...</a>
+                            <div class="upload-i">
+                                <a class="feet" href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                                <a class="feet" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
